@@ -27,8 +27,8 @@ const displayProducts = (products) => {
     productCard.innerHTML = `
     <img src=${product.image} />
     <p>${product.title}</p>
-    <p>${product.description}</p>
     <p>Price: $${product.price}</p>
+    <p>${product.description}</p>
     <button id="delete-product">Delete</button>
     `;
     productsContainer.appendChild(productCard);
