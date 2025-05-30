@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Sulphur+Point:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <div class="form-container">
+        <p id="form-message"></p>
+        <form id="form">
+          <div class="form-item">
+            <label for="id">ID</label>
+            <input type="number" id="id" />
+          </div>
+          <div class="form-item">
+            <label for="name">Name</label>
+            <input type="text" id="name" />
+          </div>
+          <div class="form-item">
+            <label for="category">Category</label>
+            <input type="text" id="category" />
+          </div>
+
+          <div class="form-item">
+            <label for="description">Description</label>
+            <textarea id="description"></textarea>
+          </div>
+
+          <div class="form-item">
+            <label for="img-url">Image URL</label>
+            <input type="text" id="img-url" />
+          </div>
+
+          <div class="form-item">
+            <label for="price">Price</label>
+            <input type="text" id="price" />
+          </div>
+
+          <button type="submit">Add Product</button>
+        </form>
+      </div>
+      <div id="products"></div>
+    </main>
+  </body>
+</html>
