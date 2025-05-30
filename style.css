@@ -204,9 +204,3 @@ main {
   text-align: center;
 }
 
-/* making the items fit in the screen (query) */
-/* @media (min-width: 450px) {
-  h1 {
-    color: red;
-  }
-} */
